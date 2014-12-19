@@ -15,7 +15,6 @@ RUN \
   rm -rf /var/lib/apt/lists/* && \
   echo "\ndaemon off;" >> /etc/nginx/nginx.conf && \
   chown -R www-data:www-data /var/lib/nginx && \
-  mkdir /var/www && \
   chown -R www-data:www-data /var/www
 
 # Define mountable directories.
